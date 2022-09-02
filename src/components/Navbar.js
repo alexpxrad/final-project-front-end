@@ -5,6 +5,7 @@ import './styles/Navbar.css'
 
 const NavBar = () => {
     return (
+        
       <div className="sum">
         <div className="logo">
             EverTrack

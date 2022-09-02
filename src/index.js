@@ -1,4 +1,4 @@
-import React from 'react';
+
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
@@ -7,6 +7,9 @@ import Activity from './components/Activity';
 import Submit from './components/Submit';
 import Login from './components/Login';
 import NavBar from './components/Navbar';
+import React, { useState } from 'react';
+import Carousel from 'react-bootstrap/Carousel';
+import BootstrapCarousel from './components/BootstrapCarousel';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -16,6 +19,7 @@ root.render(
 <Router>
   <div>
     <NavBar/>
+    
 
   <Routes>
     {/* //<Route  path='/' element={<App/>} /> */}
