@@ -1,6 +1,8 @@
 import React from "react";
 //import NavBar from './components/Navbar';
 import BootstrapCarousel from "./BootstrapCarousel";
+import './styles/Login.css'
+
 
 const Activity = () => {
     return (

@@ -9,7 +9,7 @@ import Login from './components/Login';
 import NavBar from './components/Navbar';
 import React, { useState } from 'react';
 import Carousel from 'react-bootstrap/Carousel';
-import BootstrapCarousel from './components/BootstrapCarousel';
+
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

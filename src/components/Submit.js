@@ -7,7 +7,7 @@ const Submit = () => {
             <div>
 
                 <SubmitForm />
-                    <h1>This is the submission page</h1>
+                    <h1></h1>
             </div>
 
 

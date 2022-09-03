@@ -1,8 +1,8 @@
 
 import './App.css';
-import NavBar from './components/Navbar';
-import React, { useState } from 'react';
-import BootstrapCarousel from './components/BootstrapCarousel';
+//import NavBar from './components/Navbar';
+//import React, { useState } from 'react';
+//import BootstrapCarousel from './components/BootstrapCarousel';
 
 function App() {
   return (
