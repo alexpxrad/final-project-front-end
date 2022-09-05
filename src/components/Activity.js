@@ -2,7 +2,7 @@ import React from "react";
 import ActivityCard from "./ActivityCard";
 //import NavBar from './components/Navbar';
 import BootstrapCarousel from "./BootstrapCarousel";
-import './styles/Login.css'
+import './Activity.css'
 
 
 const Activity = () => {
@@ -10,7 +10,7 @@ const Activity = () => {
             
             <div>   
                     <h1>This is the Activity page</h1>
-                    {/* //<BootstrapCarousel /> */}
+                    
                     <ActivityCard/>
             </div>
 

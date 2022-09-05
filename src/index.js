@@ -22,7 +22,7 @@ root.render(
     
 
   <Routes>
-    {/* //<Route  path='/' element={<App/>} /> */}
+    //<Route  path='/' element={<App/>} />
     <Route path='/Activity' element={<Activity/>} />
     <Route path='/Submit' element={<Submit/>} />
     <Route path='/Login' element={<Login/>} />
