@@ -1,5 +1,6 @@
 .sum {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     background-image: linear-gradient(green , rgb(255, 174, 0));

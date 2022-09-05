@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from 'react-router-dom'
 import './styles/Navbar.css'
+import newlogo from './assets/newlogo.png'
 
 
 const NavBar = () => {
@@ -9,6 +10,7 @@ const NavBar = () => {
       <div className="sum">
         <div className="logo">
             EverTrack
+            <img src={newlogo} alt="Brand Logo" width="75" height="50" />
         </div>
         <nav className="item"></nav>
             <ul className="ul">
