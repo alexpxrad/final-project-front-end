@@ -1,0 +1,52 @@
+[debug] [2022-09-06T20:06:31.386Z] ----------------------------------------------------------------------
+[debug] [2022-09-06T20:06:31.387Z] Command:       /Users/abp06c/.nvm/versions/node/v16.16.0/bin/node /opt/homebrew/bin/firebase init hosting
+[debug] [2022-09-06T20:06:31.387Z] CLI Version:   11.4.0
+[debug] [2022-09-06T20:06:31.388Z] Platform:      darwin
+[debug] [2022-09-06T20:06:31.388Z] Node Version:  v16.16.0
+[debug] [2022-09-06T20:06:31.392Z] Time:          Tue Sep 06 2022 16:06:31 GMT-0400 (Eastern Daylight Time)
+[debug] [2022-09-06T20:06:31.392Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-09-06T20:06:31.394Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2022-09-06T20:06:31.449Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-09-06T20:06:31.450Z] > authorizing via signed-in user (alexpxrad@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /Users/abp06c/bocacode/Final-Project/final-project-front-end
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2022-09-06T20:06:31.452Z] Using project from CLI flag: final-project-everglades
+[debug] [2022-09-06T20:06:31.454Z] > refreshing access token with scopes: []
+[debug] [2022-09-06T20:06:31.455Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2022-09-06T20:06:31.455Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2022-09-06T20:06:31.556Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2022-09-06T20:06:31.556Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2022-09-06T20:06:31.612Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/final-project-everglades [none]
+[debug] [2022-09-06T20:06:31.614Z] <<< [apiv2][status] GET https://firebase-public.firebaseio.com/cli.json 200
+[debug] [2022-09-06T20:06:31.614Z] <<< [apiv2][body] GET https://firebase-public.firebaseio.com/cli.json {"cloudBuildErrorAfter":1594252800000,"cloudBuildWarnAfter":1590019200000,"defaultNode10After":1594252800000,"minVersion":"3.0.5","node8DeploysDisabledAfter":1613390400000,"node8RuntimeDisabledAfter":1615809600000,"node8WarnAfter":1600128000000}
+[debug] [2022-09-06T20:06:31.933Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/final-project-everglades 200
+[debug] [2022-09-06T20:06:31.934Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/final-project-everglades {"projectId":"final-project-everglades","projectNumber":"538342141788","displayName":"final-project-everglades","name":"projects/final-project-everglades","resources":{"hostingSite":"final-project-everglades"},"state":"ACTIVE","etag":"1_4970d738-78e0-4148-aced-63bbb3e7a126"}
+[info] i  Using project final-project-everglades (final-project-everglades) 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
