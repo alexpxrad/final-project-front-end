@@ -9,7 +9,7 @@ const Activity = () => {
     return (
             
             <div>   
-                    <h1>This is the Activity page</h1>
+                    <h1>Activity Log</h1>
                     
                     <ActivityCard/>
             </div>

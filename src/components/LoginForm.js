@@ -11,7 +11,7 @@ function LoginForm() {
         <Form.Label>Email address</Form.Label>
         <Form.Control type="email" placeholder="Enter email" />
         <Form.Text className="text-muted">
-          We'll never share your email with anyone else.
+         Must be valid email from Florida Department of Environmental Protection
         </Form.Text>
       </Form.Group>
 
@@ -20,7 +20,7 @@ function LoginForm() {
         <Form.Control type="password" placeholder="Password" />
       </Form.Group>
       <Form.Group className="mb-3" controlId="formBasicCheckbox">
-        <Form.Check type="checkbox" label="Check me out" />
+      
       </Form.Group>
       <Button variant="primary" type="submit">
         Submit

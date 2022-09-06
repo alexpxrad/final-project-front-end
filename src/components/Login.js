@@ -12,7 +12,7 @@ const Login = () => {
        
         </div>
         <div className="video-container">
-          <video src={video} autoPlay loop muted className="background-video" />
+          {/* <video src={video} autoPlay loop muted className="background-video" /> */}
         </div>
       </div>
 

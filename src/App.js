@@ -8,9 +8,10 @@ function App() {
   return (
     
     <div className="App">
-     {/* <BootstrapCarousel/> */}
+     <div><BootstrapCarousel/>
       <h1> Welcome to EverTrack</h1>
-     
+        <p>The tracker app for conserving and preserving the Everglades</p>
+     </div>
     </div>
   );
 }
