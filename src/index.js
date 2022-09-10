@@ -9,6 +9,10 @@ import Login from './components/Login';
 import NavBar from './components/Navbar';
 import React, { useState } from 'react';
 import Carousel from 'react-bootstrap/Carousel';
+import Footer from './components/Footer';
+import {  FontAwesomeIcon } from "@fortawesome/fontawesome-svg-core";
+import { faGithub, faLinkedin } from "@fortawesome/free-regular-svg-icons";
+
 
 
 
@@ -28,6 +32,8 @@ root.render(
     <Route path='/Login' element={<Login/>} />
   </Routes>
 
+
+    <Footer/>
   </div>
 </Router>
 

@@ -8,7 +8,7 @@ import './Activity.css'
 const Activity = () => {
     return (
             
-            <div>   
+            <div >   
                     <h1>Activity Log</h1>
                     
                     <ActivityCard/>

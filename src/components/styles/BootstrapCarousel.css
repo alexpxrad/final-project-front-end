@@ -3,7 +3,8 @@
 * {
     align-items: baseline;
     height: 20%;
-    
+    display: flex;
+    flex-wrap: wrap;
 
 
 

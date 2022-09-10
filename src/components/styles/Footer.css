@@ -1,0 +1,11 @@
+footer{
+    text-align:center;
+    padding-bottom: 10px;
+    height:120px;
+    background-image: linear-gradient( rgb(255, 174, 0), green ); 
+    position:sticky;
+    bottom:0%;
+    width: 100%;
+    
+}
+
