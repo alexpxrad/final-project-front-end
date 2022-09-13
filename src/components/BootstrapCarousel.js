@@ -5,6 +5,7 @@ import Mangroves from './assets/Mangroves.jpeg'
 import Panther from './assets/Panther.jpg'
 import "../BootstrapCarousel.css"
 import {useState, useEffect } from 'react'
+import map from './assets/map.jpeg'
 
 
 
@@ -16,7 +17,7 @@ function BootstrapCarousel() {
 
   const images = [
     {id: "1", image: Heron},
-    {id: "2", image: Mangroves},
+    {id: "2", image: map},
     {id: "3", image: Panther},
   ];
 

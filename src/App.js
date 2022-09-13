@@ -13,25 +13,29 @@ function App() {
     <div className="App">
      <div>  
 
- <Container>
+ <Container classname="container">
         
       <BootstrapCarousel/>
      
       </Container>
 
 
-     <Container> 
-      <div style={{marginTop: '300px'}}>
-     <div style={{backgroundColor: 'lightGreen', height: '300px', opacity: '0.3'}}></div>
+     <Container className='intro-container'> 
+      <div style={{marginTop: '500px'}}>
+     <div style={{backgroundImage: 'linear-gradient(rgb(172, 206, 77) , rgb(217, 163, 45))' ,height: '300px', width: '100%', opacity: '0.9', borderRadius: "5%", justifyContent: 'center'}}></div>
 
 
-      <div style={{position: 'relative', top: '-200px'}}>
-      <h1> Welcome to EverTrack</h1>
-        <p >The tracker app for conserving and preserving the Everglades</p>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-          Accusantium hic temporibus praesentium ratione eveniet consequatur non? 
-          Maxime exercitationem vitae nesciunt deleniti, eveniet amet praesentium id vero similique, 
-          veritatis assumenda? Amet?</p>
+      <div style={{position: 'relative', top: '-250px'}}>
+      <h1 style={{fontSize: '80px', textAlign: 'center'}}> Welcome to EverTrack</h1>
+        <p style={{fontSize: '40px', textAlign: 'center'}}>The tracker app for conserving and preserving the Everglades</p>
+        {/* <p className="hero-text-body">
+            Everglades tracking web app that helps park rangers input coordinates, and description of:
+            <br/>
+            Natural wildlife 
+            <br/>
+            Invasive species of animals and plants
+            <br/>
+            Human activity such as overfishing, illegal hunting, pollution like trash dumping</p> */}
         </div>
         </div>
           </Container>

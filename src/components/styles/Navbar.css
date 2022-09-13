@@ -4,7 +4,7 @@
     justify-content: space-between;
     align-items: center;
     background-image: linear-gradient(green , rgb(255, 174, 0));
-    
+    opacity: 0.9;
 
    
 }

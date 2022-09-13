@@ -34,7 +34,7 @@ function SubmitForm() {
     <Container className='formContain' style={{width: '35%',borderRadius: '5px', boxShadow: '5px 5px 5px lightGray' }}   >
     <Form onSubmit={(e) => {
       e.preventDefault()
-      handleSubmit(timestamp, coordinates, type, description)}} style={{margin: '2rem 0 2rem 0' }}>  
+      handleSubmit(timestamp, coordinates, type, description)}} style={{margin: '14rem 0 14rem 0' }}>  
       <Form.Group className="mb-3" controlId="SubmitForm.ControlInput1">  
         <Form.Label>Timestamp</Form.Label>
         <Form.Control required type="TimeStamp" placeholder="12/01/22 16:00" value={timestamp} onChange={(e) => (setTimestamp(e.target.value))}/>
